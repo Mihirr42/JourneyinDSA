@@ -17,7 +17,7 @@ public:
 };
 
 // INSERTION AT TAIL ALGORITHM
-void insertAtTail(Node *&head, Node *&tail, int d)
+void insertAtTail(Node* &head, Node* &tail, int d)
 {
     Node *temp = new Node(d);
     // EMPTY CASE HANDLING
