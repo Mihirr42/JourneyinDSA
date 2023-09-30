@@ -1,12 +1,14 @@
 #include <iostream>
 using namespace std;
 
+// CREATING A NODE USING CPP CLASS
 class Node
 {
 public:
     int data;
     Node *next;
-
+    
+    // CONSTRUCTOR 
     Node(int data)
     {
         this->data = data;
@@ -14,6 +16,7 @@ public:
     }
 };
 
+// ADDING AND PRINTING ELEMENTS OF NODE
 int main()
 {
     Node *node1 = new Node(10);
