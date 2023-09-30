@@ -11,11 +11,11 @@ int binarySearch(int arr[], int size, int key)
     // LOOP FOR COMPARING THE KEY ELEMENT WITHIN THE ARRAY
     while (start <= end)
     {
-        if (key == arr[mid])
-            return mid;
-
-        else if (key > arr[mid])
-            start = mid + 1;
+        if (key == arr[mid])                                                    
+            return mid;                                                         
+            
+        else if (key > arr[mid])                                                // TIME COMPLEXITY = O(log N)                                                
+            start = mid + 1;                                                    // SPACE COMPLEXITY = O(1)
 
         else
             end = mid - 1;
