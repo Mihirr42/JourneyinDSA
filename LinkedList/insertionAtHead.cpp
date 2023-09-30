@@ -15,6 +15,7 @@ public:
     }
 };
 
+// INSERTION AT HEAD ALGORIITHM
 void insertionAtHead(Node *&head, int d)
 {
     // NEW NODE CREATION
@@ -23,6 +24,7 @@ void insertionAtHead(Node *&head, int d)
     head = temp;
 }
 
+// PRINTING THE LINKED LIST ALGO
 void print(Node *head)
 {
     Node *temp = head;
@@ -36,6 +38,7 @@ void print(Node *head)
     cout << endl;
 }
 
+// USER INPUT
 int main()
 {
     int size;
