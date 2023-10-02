@@ -97,39 +97,6 @@ public:
 
         return ans;
     }
-
-    int getFront()
-    {
-        if (isEmpty())
-            return -1;
-
-        else
-            return arr[front];
-    }
-
-    int getRear()
-    {
-        if (isEmpty())
-            return -1;
-
-        return arr[rear];
-    }
-
-    bool isEmpty()
-    {
-        if (front == -1)
-            return true;
-        else
-            return false;
-    }
-
-    bool isFull()
-    {
-        if (front == 0 && rear == size - 1 || front != 0 && (rear == (front - 1) % (size - 1)))
-            return true;
-        else
-            return false;
-    }
 };
 
 
