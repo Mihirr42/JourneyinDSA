@@ -1,4 +1,5 @@
-// You are using GCC
+// PRINTING THE POP ELEMENT AND DISPLAYING STACK ELEMENTS
+
 #include <iostream>
 using namespace std;
 
